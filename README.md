@@ -27,11 +27,12 @@ Geometric art encodes mathematical proportions found throughout natural systems 
 ### Steps
 
 1. **Clone the repository**
-      git clone <repository-url>
+   ```
+   git clone https://github.com/xilyis/generative-geometric-art.git
    cd generative-geometric-art
    ```
 
-2. **Create a virtual environment**
+3. **Create a virtual environment**
    ```bash
    # Windows (PowerShell)
    py -m venv venv
@@ -42,7 +43,7 @@ Geometric art encodes mathematical proportions found throughout natural systems 
    source venv/bin/activate
    ```
 
-3. **Install dependencies**
+4. **Install dependencies**
    ```bash
    pip install pygame opencv-python mediapipe
    ```
